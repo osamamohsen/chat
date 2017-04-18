@@ -5,8 +5,9 @@ Realtime App Using Laravel + NodeJs
 1- git clone the project
 
 
-2- create .env file, duplicate .env.example inside it and add dataBase
+2- create .env file, duplicate .env.example inside it
 
+3- go to .enb file and write your database
 	DB_DATABASE=
 	DB_USERNAME=
 	DB_PASSWORD=
