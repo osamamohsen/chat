@@ -5,18 +5,22 @@ Realtime App Using Laravel + NodeJs
 1- git clone the project
 
 
-2- create .env file and add dataBase
+2- create .env file, duplicate .env.example inside it and add dataBase
 
 	DB_DATABASE=
 	DB_USERNAME=
 	DB_PASSWORD=
 
-3- composer install
+4- php artisan key:generate
 
-4- npm install
+5- php artisan migrate
 
-5- write command php artisan serve
+6- composer install
 
-6- go to nodejs and run command node server.js
+7- npm install
 
-7- open http://localhost:8000 on your browser 
+8- write command php artisan serve
+
+9- go to nodejs and run command node server.js
+
+10- open http://localhost:8000 on your browser 
