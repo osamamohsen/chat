@@ -17,6 +17,6 @@ Realtime App Using Laravel + NodeJs
 
 5- write command php artisan serve
 
-6- go to nodejs and run command node server.js
+5- go to nodejs and run command node server.js
 
-7- open http://localhost:8000 on your browser 
+
