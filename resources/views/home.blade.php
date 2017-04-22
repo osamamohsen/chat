@@ -14,14 +14,14 @@
             <div class="col-md-4">
                 <div class="well">
                     <h3>Online Users</h3>
-                    <button onclick="pub_room()">Public Room</button>
+                    {{--<button class="hi" onclick="pub_room()">Public Room</button>--}}
                     <div id="users"></div>
                     <div class="list-group" id="users"></div>
                 </div>
             </div>
             <div class="col-md-8">
                 <div class="chat" id="chat_room">Public Room</div>
-                <div class="chat" id="public_chat"></div>
+                {{--<div class="chat hidden"  id="public_chat"></div>--}}
                 <div class="chat" id="private_chat"></div>
                 <form id="messageForm">
                     <div class="form-group">
